@@ -4,6 +4,7 @@
 //
 //  Created by Ticsmatic on 2018/10/17.
 //  Copyright © 2018年 ticsmatic. All rights reserved.
+//  https://docs.swift.org/swift-book/LanguageGuide/TheBasics.html
 
 // Tuples
 // enable you to create and pass around groupings of values. You can use a tuple to return multiple values from a function as a single compound value
@@ -173,8 +174,119 @@ class TheBasicsViewController: UIViewController {
         print("The status message is \(http200Status.description)")
         // Prints "The status message is OK"
         
-        // 用于函数返回值
+        // 元组的另一个主要用途是用于函数返回值，从而实现返回多值
         // Tuples are particularly useful as the return values of functions
+        ("name", 100, "1001")
+        (name: "name", age: 100, id: "1001")
+        
+        
+        
+        // Optionals
+        // The concept of optionals doesn’t exist in C or Objective-C. The nearest thing in Objective-C is the ability to return nil from a method that would otherwise return an object, with nil meaning “the absence of a valid object.” However, this only works for objects—it doesn’t work for structures, basic C types, or enumeration values. For these types, Objective-C methods typically return a special value (such as NSNotFound) to indicate the absence of a value. This approach assumes that the method’s caller knows there’s a special value to test against and remembers to check for it. Swift’s optionals let you indicate the absence of a value for any type at all, without the need for special constants.
+        let possibleNumber = "123"
+        let convertedNumber = Int(possibleNumber)
+        
+        // nil
+        // You set an optional variable to a valueless state by assigning it the special value nil:
+        var serverResponseCode: Int? = 404
+        // serverResponseCode contains an actual Int value of 404
+        serverResponseCode = nil
+        // serverResponseCode now contains no value
+        
+        // If you define an optional variable without providing a default value, the variable is automatically set to nil for you:
+        var surveyAnswer: String?
+        // surveyAnswer is automatically set to nil
+        
+        // NOTE:
+        // In Swift, nil isn’t a pointer—it’s the absence of a value of a certain type. Optionals of any type can be set to nil, not just object types.
+        
+        // If Statements and Forced Unwrapping
+        // 用if来打开检验可选值
+        if convertedNumber != nil {
+            print("convertedNumber contains some integer value.")
+        }
+        // Prints "convertedNumber contains some integer value."
+        
+        // Once you’re sure that the optional does contain a value. mark (!) to the end of the optional’s name
+        if convertedNumber != nil {
+            print("convertedNumber has an integer value of \(convertedNumber!).")
+        }
+        // Prints "convertedNumber has an integer value of 123."
+        
+        // Optional Binding 用if来提取可选值
+        // You use optional binding to find out whether an optional contains a value, and if so, to make that value available as a temporary constant or variable.
+        if let actualNumber = Int(possibleNumber) {
+            print("The string \"\(possibleNumber)\" has an integer value of \(actualNumber)")
+        } else {
+            print("The string \"\(possibleNumber)\" could not be converted to an integer")
+        }
+        // “If the optional Int returned by Int(possibleNumber) contains a value, set a new constant called actualNumber to the value contained in the optional.”
+        
+        if let firstNumber = Int("4"), let secondNumber = Int("42"), firstNumber < secondNumber && secondNumber < 100 {
+            print("\(firstNumber) < \(secondNumber) < 100")
+        }
+        // Prints "4 < 42 < 100"
+        
+        // Implicitly Unwrapped Optionals 隐式解析可选类型
+        // You write an implicitly unwrapped optional by placing an exclamation mark (String!) rather than a question mark (String?) after the type that you want to make optional.
+        let possibleString: String? = "An optional string."
+        let forcedString: String = possibleString! // requires an exclamation mark
+        
+        let assumedString: String! = "An implicitly unwrapped optional string."
+        let implicitString: String = assumedString // no need for an exclamation mark
+        
+        if assumedString != nil {
+            print(assumedString!)
+        }
+        // Prints "An implicitly unwrapped optional string."
+        
+        // You can also use an implicitly unwrapped optional with optional binding
+        if let definiteString = assumedString {
+            print(definiteString)
+        }
+        
+        
+        
+        // Error Handling
+        // do-try
+        /*
+        func makeASandwich() throws {
+            // ...
+        }
+        do {
+            try makeASandwich()
+            eatASandwich()
+        } catch SandwichError.outOfCleanDishes {
+            washDishes()
+        } catch SandwichError.missingIngredients(let ingredients) {
+            buyGroceries(ingredients)
+        }
+        */
+        // try?
+        // defer
+        
+        
+        
+        // Assertions and Preconditions
+        let age = -3
+        // assert(age >= 0, "A person's age can't be less than zero.")
+        // This assertion fails because -3 is not >= 0.
+        
+        // assert(age >= 0)
+        
+        // indicate that an assertion has failed
+        // 通过代码就能看出结果来，可以直接断言失败
+//        if age > 10 {
+//            print("You can ride the roller-coaster or the ferris wheel.")
+//        } else if age >= 0 {
+//            print("You can ride the ferris wheel.")
+//        } else {
+//            assertionFailure("A person's age can't be less than zero.")
+//        }
+        
+        // Enforcing Preconditions 强制执行先决条件
+        // Use a precondition whenever a condition has the potential to be false, but must definitely be true for your code to continue execution
+//        precondition(age > 0, "Index must be greater than zero.")
     }
     
     
