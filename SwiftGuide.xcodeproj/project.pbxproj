@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		550DB80D2178CA8400770D2D /* BasicOperatorsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550DB80C2178CA8400770D2D /* BasicOperatorsController.swift */; };
+		553247ED217E211D00F34343 /* StringsAndCharactersController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553247EC217E211D00F34343 /* StringsAndCharactersController.swift */; };
 		5548AB9C217890EA006B2232 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5548AB9B217890EA006B2232 /* AppDelegate.swift */; };
 		5548AB9E217890EA006B2232 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5548AB9D217890EA006B2232 /* ViewController.swift */; };
 		5548ABA1217890EA006B2232 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5548AB9F217890EA006B2232 /* Main.storyboard */; };
@@ -19,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		550DB80C2178CA8400770D2D /* BasicOperatorsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicOperatorsController.swift; sourceTree = "<group>"; };
+		553247EC217E211D00F34343 /* StringsAndCharactersController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringsAndCharactersController.swift; sourceTree = "<group>"; };
 		5548AB98217890EA006B2232 /* SwiftGuide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftGuide.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5548AB9B217890EA006B2232 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5548AB9D217890EA006B2232 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -65,6 +67,7 @@
 				5548ABB92178A63A006B2232 /* TourViewController.swift */,
 				5548ABBA2178A63A006B2232 /* TheBasicsViewController.swift */,
 				550DB80C2178CA8400770D2D /* BasicOperatorsController.swift */,
+				553247EC217E211D00F34343 /* StringsAndCharactersController.swift */,
 				5548AB9F217890EA006B2232 /* Main.storyboard */,
 				5548ABA2217890EC006B2232 /* Assets.xcassets */,
 				5548ABA4217890EC006B2232 /* LaunchScreen.storyboard */,
@@ -146,6 +149,7 @@
 			files = (
 				5548AB9E217890EA006B2232 /* ViewController.swift in Sources */,
 				5548ABBC2178A63A006B2232 /* TheBasicsViewController.swift in Sources */,
+				553247ED217E211D00F34343 /* StringsAndCharactersController.swift in Sources */,
 				550DB80D2178CA8400770D2D /* BasicOperatorsController.swift in Sources */,
 				5548ABBB2178A63A006B2232 /* TourViewController.swift in Sources */,
 				5548AB9C217890EA006B2232 /* AppDelegate.swift in Sources */,
