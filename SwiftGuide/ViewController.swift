@@ -11,7 +11,13 @@ import UIKit
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
     var tableView: UITableView!
-    var dataArray = ["Tour", "The Basics", "Basic Operators", "Strings and Characters"]
+    var dataArray = [
+        "Tour",
+        "The Basics",
+        "Basic Operators",
+        "Strings and Characters",
+        "Collection Types"
+    ]
     
     
     override func viewDidLoad() {
@@ -52,8 +58,10 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         } else if indexPath.row == 3 {
             let controller = StringsAndCharactersController.init();
             self.navigationController?.pushViewController(controller, animated: true)
-        }
-        
+        } else if indexPath.row == 4 {
+            let controller = CollectionTypesController.init();
+            self.navigationController?.pushViewController(controller, animated: true)
+        } 
     }
 }
 

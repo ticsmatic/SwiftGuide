@@ -8,6 +8,11 @@
 // 1.Swift’s String type is bridged with Foundation’s NSString class
 // you can access those NSString methods on String without casting
 
+// 2.substrings aren’t suitable for long-term storage
+
+// 总结：字符串是值安全的，会自动做内存优化；子字符串不适合长久存储，如果需要长久存储，创建新的字符串；
+// swift字符串和objc里面的很多方法相似
+
 import UIKit
 
 class StringsAndCharactersController: UIViewController {
@@ -213,5 +218,66 @@ two
 
         // Convert the result to a String for long-term storage.
         let newString = String(beginning)
+        
+        
+        // MARK: Comparing Strings
+        // Swift provides three ways to compare textual values: string and character equality, prefix equality, and suffix equality.
+        
+        // String and Character Equality
+        let quotation2 = "We're a lot alike, you and I."
+        let sameQuotation = "We're a lot alike, you and I."
+        if quotation2 == sameQuotation {
+            print("These two strings are considered equal")
+        }
+        // Prints "These two strings are considered equal"
+        
+        // "Voulez-vous un café?" using LATIN SMALL LETTER E WITH ACUTE
+        let eAcuteQuestion = "Voulez-vous un caf\u{E9}?"
+        // "Voulez-vous un café?" using LATIN SMALL LETTER E and COMBINING ACUTE ACCENT
+        let combinedEAcuteQuestion = "Voulez-vous un caf\u{65}\u{301}?"
+        if eAcuteQuestion == combinedEAcuteQuestion {
+            print("These two strings are considered equal")
+        }
+        // Prints "These two strings are considered equal"
+        
+        // Prefix and Suffix Equality
+        // hasPrefix(_:) and hasSuffix(_:)
+        let romeoAndJuliet = [
+            "Act 1 Scene 1: Verona, A public place",
+            "Act 1 Scene 2: Capulet's mansion",
+            "Act 1 Scene 3: A room in Capulet's mansion",
+            "Act 1 Scene 4: A street outside Capulet's mansion",
+            "Act 1 Scene 5: The Great Hall in Capulet's mansion",
+            "Act 2 Scene 1: Outside Capulet's mansion",
+            "Act 2 Scene 2: Capulet's orchard",
+            "Act 2 Scene 3: Outside Friar Lawrence's cell",
+            "Act 2 Scene 4: A street in Verona",
+            "Act 2 Scene 5: Capulet's mansion",
+            "Act 2 Scene 6: Friar Lawrence's cell"
+        ]
+        var act1SceneCount = 0
+        for scene in romeoAndJuliet {
+            if scene.hasPrefix("Act 1 ") {
+                act1SceneCount += 1
+            }
+        }
+        print("There are \(act1SceneCount) scenes in Act 1")
+        // Prints "There are 5 scenes in Act 1"
+        
+        let dogString = "AabcdDog‼🐶"
+        // Unicode Representations of Strings
+        // utf8 utf16
+        for codeUnit in dogString.utf16 {
+            print("\(codeUnit) ", terminator: "")
+        }
+        // 65 97 98 99 100 68 111 103 226 128 188 240 159 144 182       utf8
+        // 65 97 98 99 100 68 111 103 8252 55357 56374                  utf16
+        print("")
+        
+        for scalar in dogString.unicodeScalars {
+            print("\(scalar.value) ", terminator: "")
+        }
+        // 65 97 98 99 100 68 111 103 8252 128054 
+        print("")
     }
 }
