@@ -17,7 +17,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         "Basic Operators",
         "Strings and Characters",
         "Collection Types",
-        "Control Flow"
+        "Control Flow",
+        "Functions"
     ]
     
     
@@ -64,6 +65,9 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             self.navigationController?.pushViewController(controller, animated: true)
         }  else if indexPath.row == 5 {
             let controller = ControlFlowController.init()
+            self.navigationController?.pushViewController(controller, animated: true)
+        }  else if indexPath.row == 6 {
+            let controller = FunctionsController.init()
             self.navigationController?.pushViewController(controller, animated: true)
         }
     }
