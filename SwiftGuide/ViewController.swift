@@ -16,7 +16,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         "The Basics",
         "Basic Operators",
         "Strings and Characters",
-        "Collection Types"
+        "Collection Types",
+        "Control Flow"
     ]
     
     
@@ -56,12 +57,15 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             let controller = BasicOperatorsController.init()
             self.navigationController?.pushViewController(controller, animated: true)
         } else if indexPath.row == 3 {
-            let controller = StringsAndCharactersController.init();
+            let controller = StringsAndCharactersController.init()
             self.navigationController?.pushViewController(controller, animated: true)
         } else if indexPath.row == 4 {
-            let controller = CollectionTypesController.init();
+            let controller = CollectionTypesController.init()
             self.navigationController?.pushViewController(controller, animated: true)
-        } 
+        }  else if indexPath.row == 5 {
+            let controller = ControlFlowController.init()
+            self.navigationController?.pushViewController(controller, animated: true)
+        }
     }
 }
 
