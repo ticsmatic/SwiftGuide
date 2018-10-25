@@ -21,6 +21,24 @@
 		5548ABBC2178A63A006B2232 /* TheBasicsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5548ABBA2178A63A006B2232 /* TheBasicsViewController.swift */; };
 		5550903C2181669B00EDAF34 /* ClosuresController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5550903B2181669B00EDAF34 /* ClosuresController.swift */; };
 		5550903E2181C85C00EDAF34 /* EnumerationsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5550903D2181C85C00EDAF34 /* EnumerationsController.swift */; };
+		555A582F21821BD800AAE90C /* StructuresAndClassesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555A582E21821BD800AAE90C /* StructuresAndClassesController.swift */; };
+		555A583121821CAC00AAE90C /* PropertiesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555A583021821CAC00AAE90C /* PropertiesController.swift */; };
+		555A583321821CB600AAE90C /* MethodsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555A583221821CB600AAE90C /* MethodsController.swift */; };
+		555A583521821CC000AAE90C /* SubscriptsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555A583421821CC000AAE90C /* SubscriptsController.swift */; };
+		555A583721821CCB00AAE90C /* InheritanceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555A583621821CCB00AAE90C /* InheritanceController.swift */; };
+		555A583921821CD400AAE90C /* InitializationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555A583821821CD400AAE90C /* InitializationController.swift */; };
+		555A583B21821CDC00AAE90C /* DeinitializationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555A583A21821CDC00AAE90C /* DeinitializationController.swift */; };
+		555A583D21821CE800AAE90C /* OptionalChainingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555A583C21821CE800AAE90C /* OptionalChainingController.swift */; };
+		555A583F21821CF200AAE90C /* ErrorHandlingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555A583E21821CF200AAE90C /* ErrorHandlingController.swift */; };
+		555A584121821CFD00AAE90C /* TypeCastingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555A584021821CFD00AAE90C /* TypeCastingController.swift */; };
+		555A584321821D0A00AAE90C /* NestedTypesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555A584221821D0A00AAE90C /* NestedTypesController.swift */; };
+		555A584521821D1200AAE90C /* ExtensionsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555A584421821D1200AAE90C /* ExtensionsController.swift */; };
+		555A584721821D2500AAE90C /* ProtocolsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555A584621821D2500AAE90C /* ProtocolsController.swift */; };
+		555A584921821D2E00AAE90C /* GenericsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555A584821821D2E00AAE90C /* GenericsController.swift */; };
+		555A584B21821D3D00AAE90C /* AutomaticReferenceCountingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555A584A21821D3D00AAE90C /* AutomaticReferenceCountingController.swift */; };
+		555A584D21821D4A00AAE90C /* MemorySafetyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555A584C21821D4A00AAE90C /* MemorySafetyController.swift */; };
+		555A584F21821D5400AAE90C /* AccessControlController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555A584E21821D5400AAE90C /* AccessControlController.swift */; };
+		555A585121821D6200AAE90C /* AdvancedOperatorsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555A585021821D6200AAE90C /* AdvancedOperatorsController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +58,24 @@
 		5548ABBA2178A63A006B2232 /* TheBasicsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TheBasicsViewController.swift; sourceTree = "<group>"; };
 		5550903B2181669B00EDAF34 /* ClosuresController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClosuresController.swift; sourceTree = "<group>"; };
 		5550903D2181C85C00EDAF34 /* EnumerationsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumerationsController.swift; sourceTree = "<group>"; };
+		555A582E21821BD800AAE90C /* StructuresAndClassesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructuresAndClassesController.swift; sourceTree = "<group>"; };
+		555A583021821CAC00AAE90C /* PropertiesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertiesController.swift; sourceTree = "<group>"; };
+		555A583221821CB600AAE90C /* MethodsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MethodsController.swift; sourceTree = "<group>"; };
+		555A583421821CC000AAE90C /* SubscriptsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptsController.swift; sourceTree = "<group>"; };
+		555A583621821CCB00AAE90C /* InheritanceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InheritanceController.swift; sourceTree = "<group>"; };
+		555A583821821CD400AAE90C /* InitializationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitializationController.swift; sourceTree = "<group>"; };
+		555A583A21821CDC00AAE90C /* DeinitializationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeinitializationController.swift; sourceTree = "<group>"; };
+		555A583C21821CE800AAE90C /* OptionalChainingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionalChainingController.swift; sourceTree = "<group>"; };
+		555A583E21821CF200AAE90C /* ErrorHandlingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorHandlingController.swift; sourceTree = "<group>"; };
+		555A584021821CFD00AAE90C /* TypeCastingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeCastingController.swift; sourceTree = "<group>"; };
+		555A584221821D0A00AAE90C /* NestedTypesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NestedTypesController.swift; sourceTree = "<group>"; };
+		555A584421821D1200AAE90C /* ExtensionsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionsController.swift; sourceTree = "<group>"; };
+		555A584621821D2500AAE90C /* ProtocolsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolsController.swift; sourceTree = "<group>"; };
+		555A584821821D2E00AAE90C /* GenericsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericsController.swift; sourceTree = "<group>"; };
+		555A584A21821D3D00AAE90C /* AutomaticReferenceCountingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutomaticReferenceCountingController.swift; sourceTree = "<group>"; };
+		555A584C21821D4A00AAE90C /* MemorySafetyController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemorySafetyController.swift; sourceTree = "<group>"; };
+		555A584E21821D5400AAE90C /* AccessControlController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessControlController.swift; sourceTree = "<group>"; };
+		555A585021821D6200AAE90C /* AdvancedOperatorsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedOperatorsController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +119,24 @@
 				5545C35E2180682600F42A2B /* FunctionsController.swift */,
 				5550903B2181669B00EDAF34 /* ClosuresController.swift */,
 				5550903D2181C85C00EDAF34 /* EnumerationsController.swift */,
+				555A582E21821BD800AAE90C /* StructuresAndClassesController.swift */,
+				555A583021821CAC00AAE90C /* PropertiesController.swift */,
+				555A583221821CB600AAE90C /* MethodsController.swift */,
+				555A583421821CC000AAE90C /* SubscriptsController.swift */,
+				555A583621821CCB00AAE90C /* InheritanceController.swift */,
+				555A583821821CD400AAE90C /* InitializationController.swift */,
+				555A583A21821CDC00AAE90C /* DeinitializationController.swift */,
+				555A583C21821CE800AAE90C /* OptionalChainingController.swift */,
+				555A583E21821CF200AAE90C /* ErrorHandlingController.swift */,
+				555A584021821CFD00AAE90C /* TypeCastingController.swift */,
+				555A584221821D0A00AAE90C /* NestedTypesController.swift */,
+				555A584421821D1200AAE90C /* ExtensionsController.swift */,
+				555A584621821D2500AAE90C /* ProtocolsController.swift */,
+				555A584821821D2E00AAE90C /* GenericsController.swift */,
+				555A584A21821D3D00AAE90C /* AutomaticReferenceCountingController.swift */,
+				555A584C21821D4A00AAE90C /* MemorySafetyController.swift */,
+				555A584E21821D5400AAE90C /* AccessControlController.swift */,
+				555A585021821D6200AAE90C /* AdvancedOperatorsController.swift */,
 				5548AB9F217890EA006B2232 /* Main.storyboard */,
 				5548ABA2217890EC006B2232 /* Assets.xcassets */,
 				5548ABA4217890EC006B2232 /* LaunchScreen.storyboard */,
@@ -162,16 +216,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				555A584321821D0A00AAE90C /* NestedTypesController.swift in Sources */,
+				555A583D21821CE800AAE90C /* OptionalChainingController.swift in Sources */,
+				555A584B21821D3D00AAE90C /* AutomaticReferenceCountingController.swift in Sources */,
 				5548AB9E217890EA006B2232 /* ViewController.swift in Sources */,
+				555A585121821D6200AAE90C /* AdvancedOperatorsController.swift in Sources */,
 				5545C35F2180682600F42A2B /* FunctionsController.swift in Sources */,
+				555A583121821CAC00AAE90C /* PropertiesController.swift in Sources */,
 				5548ABBC2178A63A006B2232 /* TheBasicsViewController.swift in Sources */,
+				555A584F21821D5400AAE90C /* AccessControlController.swift in Sources */,
+				555A584521821D1200AAE90C /* ExtensionsController.swift in Sources */,
+				555A583721821CCB00AAE90C /* InheritanceController.swift in Sources */,
+				555A583321821CB600AAE90C /* MethodsController.swift in Sources */,
+				555A584921821D2E00AAE90C /* GenericsController.swift in Sources */,
+				555A583F21821CF200AAE90C /* ErrorHandlingController.swift in Sources */,
 				5550903C2181669B00EDAF34 /* ClosuresController.swift in Sources */,
+				555A584121821CFD00AAE90C /* TypeCastingController.swift in Sources */,
+				555A582F21821BD800AAE90C /* StructuresAndClassesController.swift in Sources */,
+				555A583521821CC000AAE90C /* SubscriptsController.swift in Sources */,
 				553247ED217E211D00F34343 /* StringsAndCharactersController.swift in Sources */,
+				555A583921821CD400AAE90C /* InitializationController.swift in Sources */,
+				555A584D21821D4A00AAE90C /* MemorySafetyController.swift in Sources */,
 				5545C35D218044C400F42A2B /* ControlFlowController.swift in Sources */,
 				550DB80D2178CA8400770D2D /* BasicOperatorsController.swift in Sources */,
 				5548ABBB2178A63A006B2232 /* TourViewController.swift in Sources */,
 				55105B95217F66F700DF9E25 /* CollectionTypesController.swift in Sources */,
 				5548AB9C217890EA006B2232 /* AppDelegate.swift in Sources */,
+				555A584721821D2500AAE90C /* ProtocolsController.swift in Sources */,
+				555A583B21821CDC00AAE90C /* DeinitializationController.swift in Sources */,
 				5550903E2181C85C00EDAF34 /* EnumerationsController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -20,7 +20,25 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         "Control Flow",
         "Functions",
         "Closures",
-        "Enumerations"
+        "Enumerations",
+        "Structures and Classes",
+        "Properties",
+        "Methods",
+        "Subscripts",
+        "Inheritance",
+        "Initialization",
+        "Deinitialization",
+        "Optional Chaining",
+        "Error Handling",
+        "Type Casting",
+        "Nested Types",
+        "Extensions",
+        "Protocols",
+        "Generics",
+        "Automatic Reference Counting",
+        "Memory Safety",
+        "Access Control",
+        "Advanced Operators"
     ]
     
     
@@ -76,6 +94,60 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             self.navigationController?.pushViewController(controller, animated: true)
         } else if indexPath.row == 8 {
             let controller = EnumerationsController.init()
+            self.navigationController?.pushViewController(controller, animated: true)
+        } else if indexPath.row == 9 {
+            let controller = StructuresAndClassesController.init()
+            self.navigationController?.pushViewController(controller, animated: true)
+        } else if indexPath.row == 10 {
+            let controller = PropertiesController.init()
+            self.navigationController?.pushViewController(controller, animated: true)
+        } else if indexPath.row == 11 {
+            let controller = MethodsController.init()
+            self.navigationController?.pushViewController(controller, animated: true)
+        } else if indexPath.row == 12 {
+            let controller = SubscriptsController.init()
+            self.navigationController?.pushViewController(controller, animated: true)
+        } else if indexPath.row == 13 {
+            let controller = InheritanceController.init()
+            self.navigationController?.pushViewController(controller, animated: true)
+        } else if indexPath.row == 14 {
+            let controller = InitializationController.init()
+            self.navigationController?.pushViewController(controller, animated: true)
+        } else if indexPath.row == 15 {
+            let controller = DeinitializationController.init()
+            self.navigationController?.pushViewController(controller, animated: true)
+        } else if indexPath.row == 16 {
+            let controller = OptionalChainingController.init()
+            self.navigationController?.pushViewController(controller, animated: true)
+        } else if indexPath.row == 17 {
+            let controller = ErrorHandlingController.init()
+            self.navigationController?.pushViewController(controller, animated: true)
+        } else if indexPath.row == 18 {
+            let controller = TypeCastingController.init()
+            self.navigationController?.pushViewController(controller, animated: true)
+        } else if indexPath.row == 20 {
+            let controller = NestedTypesController.init()
+            self.navigationController?.pushViewController(controller, animated: true)
+        } else if indexPath.row == 21 {
+            let controller = ExtensionsController.init()
+            self.navigationController?.pushViewController(controller, animated: true)
+        } else if indexPath.row == 22 {
+            let controller = ProtocolsController.init()
+            self.navigationController?.pushViewController(controller, animated: true)
+        } else if indexPath.row == 23 {
+            let controller = GenericsController.init()
+            self.navigationController?.pushViewController(controller, animated: true)
+        } else if indexPath.row == 24 {
+            let controller = AutomaticReferenceCountingController.init()
+            self.navigationController?.pushViewController(controller, animated: true)
+        } else if indexPath.row == 25 {
+            let controller = MemorySafetyController.init()
+            self.navigationController?.pushViewController(controller, animated: true)
+        } else if indexPath.row == 26 {
+            let controller = AccessControlController.init()
+            self.navigationController?.pushViewController(controller, animated: true)
+        } else if indexPath.row == 27 {
+            let controller = AdvancedOperatorsController.init()
             self.navigationController?.pushViewController(controller, animated: true)
         }
     }
