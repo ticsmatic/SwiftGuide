@@ -20,6 +20,7 @@
 		5548ABBB2178A63A006B2232 /* TourViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5548ABB92178A63A006B2232 /* TourViewController.swift */; };
 		5548ABBC2178A63A006B2232 /* TheBasicsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5548ABBA2178A63A006B2232 /* TheBasicsViewController.swift */; };
 		5550903C2181669B00EDAF34 /* ClosuresController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5550903B2181669B00EDAF34 /* ClosuresController.swift */; };
+		5550903E2181C85C00EDAF34 /* EnumerationsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5550903D2181C85C00EDAF34 /* EnumerationsController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		5548ABB92178A63A006B2232 /* TourViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TourViewController.swift; sourceTree = "<group>"; };
 		5548ABBA2178A63A006B2232 /* TheBasicsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TheBasicsViewController.swift; sourceTree = "<group>"; };
 		5550903B2181669B00EDAF34 /* ClosuresController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClosuresController.swift; sourceTree = "<group>"; };
+		5550903D2181C85C00EDAF34 /* EnumerationsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumerationsController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				5545C35C218044C400F42A2B /* ControlFlowController.swift */,
 				5545C35E2180682600F42A2B /* FunctionsController.swift */,
 				5550903B2181669B00EDAF34 /* ClosuresController.swift */,
+				5550903D2181C85C00EDAF34 /* EnumerationsController.swift */,
 				5548AB9F217890EA006B2232 /* Main.storyboard */,
 				5548ABA2217890EC006B2232 /* Assets.xcassets */,
 				5548ABA4217890EC006B2232 /* LaunchScreen.storyboard */,
@@ -169,6 +172,7 @@
 				5548ABBB2178A63A006B2232 /* TourViewController.swift in Sources */,
 				55105B95217F66F700DF9E25 /* CollectionTypesController.swift in Sources */,
 				5548AB9C217890EA006B2232 /* AppDelegate.swift in Sources */,
+				5550903E2181C85C00EDAF34 /* EnumerationsController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -19,7 +19,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         "Collection Types",
         "Control Flow",
         "Functions",
-        "Closures"
+        "Closures",
+        "Enumerations"
     ]
     
     
@@ -72,6 +73,9 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             self.navigationController?.pushViewController(controller, animated: true)
         } else if indexPath.row == 7 {
             let controller = ClosuresController.init()
+            self.navigationController?.pushViewController(controller, animated: true)
+        } else if indexPath.row == 8 {
+            let controller = EnumerationsController.init()
             self.navigationController?.pushViewController(controller, animated: true)
         }
     }
