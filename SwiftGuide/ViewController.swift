@@ -18,7 +18,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         "Strings and Characters",
         "Collection Types",
         "Control Flow",
-        "Functions"
+        "Functions",
+        "Closures"
     ]
     
     
@@ -63,11 +64,14 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         } else if indexPath.row == 4 {
             let controller = CollectionTypesController.init()
             self.navigationController?.pushViewController(controller, animated: true)
-        }  else if indexPath.row == 5 {
+        } else if indexPath.row == 5 {
             let controller = ControlFlowController.init()
             self.navigationController?.pushViewController(controller, animated: true)
-        }  else if indexPath.row == 6 {
+        } else if indexPath.row == 6 {
             let controller = FunctionsController.init()
+            self.navigationController?.pushViewController(controller, animated: true)
+        } else if indexPath.row == 7 {
+            let controller = ClosuresController.init()
             self.navigationController?.pushViewController(controller, animated: true)
         }
     }

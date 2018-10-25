@@ -19,6 +19,7 @@
 		5548ABA6217890EC006B2232 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5548ABA4217890EC006B2232 /* LaunchScreen.storyboard */; };
 		5548ABBB2178A63A006B2232 /* TourViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5548ABB92178A63A006B2232 /* TourViewController.swift */; };
 		5548ABBC2178A63A006B2232 /* TheBasicsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5548ABBA2178A63A006B2232 /* TheBasicsViewController.swift */; };
+		5550903C2181669B00EDAF34 /* ClosuresController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5550903B2181669B00EDAF34 /* ClosuresController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		5548ABA7217890EC006B2232 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5548ABB92178A63A006B2232 /* TourViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TourViewController.swift; sourceTree = "<group>"; };
 		5548ABBA2178A63A006B2232 /* TheBasicsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TheBasicsViewController.swift; sourceTree = "<group>"; };
+		5550903B2181669B00EDAF34 /* ClosuresController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClosuresController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 				55105B94217F66F700DF9E25 /* CollectionTypesController.swift */,
 				5545C35C218044C400F42A2B /* ControlFlowController.swift */,
 				5545C35E2180682600F42A2B /* FunctionsController.swift */,
+				5550903B2181669B00EDAF34 /* ClosuresController.swift */,
 				5548AB9F217890EA006B2232 /* Main.storyboard */,
 				5548ABA2217890EC006B2232 /* Assets.xcassets */,
 				5548ABA4217890EC006B2232 /* LaunchScreen.storyboard */,
@@ -159,6 +162,7 @@
 				5548AB9E217890EA006B2232 /* ViewController.swift in Sources */,
 				5545C35F2180682600F42A2B /* FunctionsController.swift in Sources */,
 				5548ABBC2178A63A006B2232 /* TheBasicsViewController.swift in Sources */,
+				5550903C2181669B00EDAF34 /* ClosuresController.swift in Sources */,
 				553247ED217E211D00F34343 /* StringsAndCharactersController.swift in Sources */,
 				5545C35D218044C400F42A2B /* ControlFlowController.swift in Sources */,
 				550DB80D2178CA8400770D2D /* BasicOperatorsController.swift in Sources */,
