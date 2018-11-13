@@ -125,28 +125,28 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         } else if indexPath.row == 18 {
             let controller = TypeCastingController.init()
             self.navigationController?.pushViewController(controller, animated: true)
-        } else if indexPath.row == 20 {
+        } else if indexPath.row == 19 {
             let controller = NestedTypesController.init()
             self.navigationController?.pushViewController(controller, animated: true)
-        } else if indexPath.row == 21 {
+        } else if indexPath.row == 20 {
             let controller = ExtensionsController.init()
             self.navigationController?.pushViewController(controller, animated: true)
-        } else if indexPath.row == 22 {
+        } else if indexPath.row == 21 {
             let controller = ProtocolsController.init()
             self.navigationController?.pushViewController(controller, animated: true)
-        } else if indexPath.row == 23 {
+        } else if indexPath.row == 22 {
             let controller = GenericsController.init()
             self.navigationController?.pushViewController(controller, animated: true)
-        } else if indexPath.row == 24 {
+        } else if indexPath.row == 23 {
             let controller = AutomaticReferenceCountingController.init()
             self.navigationController?.pushViewController(controller, animated: true)
-        } else if indexPath.row == 25 {
+        } else if indexPath.row == 24 {
             let controller = MemorySafetyController.init()
             self.navigationController?.pushViewController(controller, animated: true)
-        } else if indexPath.row == 26 {
+        } else if indexPath.row == 25 {
             let controller = AccessControlController.init()
             self.navigationController?.pushViewController(controller, animated: true)
-        } else if indexPath.row == 27 {
+        } else if indexPath.row == 26 {
             let controller = AdvancedOperatorsController.init()
             self.navigationController?.pushViewController(controller, animated: true)
         }
