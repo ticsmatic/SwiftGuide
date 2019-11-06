@@ -4,7 +4,16 @@
 //
 //  Created by ticsmatic on 2018/10/18.
 //  Copyright © 2018年 ticsmatic. All rights reserved.
-//  swift是一门比较新的语言，意味着它在设计之初，必然会吸取其它现代语言的特点，结果是简洁、灵活，有各种你属性的语言的影子，比如说js，java，设置和kotlin的相似性
+/*
+ Swift defines away large classes of common programming errors by adopting modern programming patterns:
+  - Variables are always initialized before use.
+  - Array indices are checked for out-of-bounds errors.
+  - Integers are checked for overflow.
+  - Optionals ensure that nil values are handled explicitly.
+  - Memory is managed automatically.
+  - Error handling allows controlled recovery from unexpected failures.
+ */
+//  swift是一门比较新的语言，意味着它在设计之初，必然会吸取其它现代语言的特点，结果是简洁、灵活，有各种你属性的语言的影子，比如说js，java，甚至和kotlin的相似性
 //  swift是一门值得尝试的语言，和objc相比它的简洁程度就值得一试
 //  注意在学习的时候考虑该语言的作者为什么这么设计，以及语言的共通性，其它语言是如何表示的
 
@@ -263,7 +272,7 @@ class TourViewController: UIViewController {
         var numbers = [20, 19, 7, 12]
         hasAnyMatches(list: numbers, condition: lessThanTen)
         
-        
+        // FIXME: 重要
         /// 函数是一种特殊的闭包:它是一段能之后被调取的代码。闭包中的代码能访问闭包作用域中的变量和函数，即使闭包是在一个不同的作用域被执行的 - 你已经在嵌套函数的例子中看过了。你可以使用 {} 来创建一个匿名闭包。使用 in 将参数和返回值类型的声明与闭包函数体进行分离。
         numbers.map {
             (number: Int) -> Int in
